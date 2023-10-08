@@ -101,3 +101,50 @@ Le 1er bloc d'une blockchain est appelé le <u>**Genesis block**</u>
 Le site suivant permet de voir comment tout cela fonctionne : https://andersbrownworth.com/blockchain/blockchain
 
 **Il faut savoir que si une information venait à changer sur l'un des blocs, il faudra que les tous les blocs suivants recalcule leur hash pour valider le consensus et ainsi uniformiser l'ensemble de la blockchain.**
+
+
+
+## Types de blockchains
+
+La blockchain "globalement" comprends 4 types :
+
+- Blockchain publique : Pas d'autorité centrale
+- Blockchain privé : Contrôlé par une autorité centrale
+- Blockchain hybride : Contrôlé par des permissions pour être géré par un groupe ou une autorité voir ne pas être contrôlé par une autorité centrale
+- Blockchain de consortium : Contrôlé par un groupe
+
+![Volet de sécurité des blockchains](img\quid-security.png)
+
+
+
+![Résumé sur les types de blockchains et les accès](img\blockchain_types.png)
+
+
+
+Lorsqu'une application blockchain est développé, il est important de bien choisir le type de blockchain à utiliser selon le besoin. Les réseaux privés et autorisés peuvent être étroitement contrôlés et sont préférables pour des questions de conformité et réglementation. Cependant, les réseaux publics permettent une plus grande décentralisation et distribution.
+
+
+
+### Authentification
+
+Le schéma suivant résume comment le mécanisme d'authentification des blocs fonctionne.
+
+![Authentification des blocs](img\authentification.png)
+
+
+
+
+
+## La gouvernance d'un SI pour la blockchain
+
+Les 3 piliers suivants doivent être scrupuleusement respectés:
+
+- La conformité: L'entreprise doit respecter les règles et les lois en vigueur
+- La performance: L'entreprise doit permettre grâce à ce projet de créer de la plus value
+- La gestion des risques : L'entreprise doit pouvoir prendre en compte les différents risques liés au développement d'un projet 
+
+
+
+### Le modèle O.I.D (object id)
+
+C'est une référence standardisé qui permet grâce à son identifiant unique de retracer un objet rapidement dans un système d'information. Il est écrit physiquement sur le support. Cela permet de se soustraire de requetes sql avec jointures pour le trouver dans la base de donnée et consommer des performances.
