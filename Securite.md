@@ -94,13 +94,14 @@ L'implémentation peux différer selon la blockchain mais les principaux éléme
 
 Le 1er bloc d'une blockchain est appelé le <u>**Genesis block**</u>
 
-![Les différents éléments d'un bloc](C:\Users\loulax\Documents\Blockchain\img\block_datas.png)
+![Les différents éléments d'un bloc](img\block_datas.png)
 
 
 
 Le site suivant permet de voir comment tout cela fonctionne : https://andersbrownworth.com/blockchain/blockchain
 
 **Il faut savoir que si une information venait à changer sur l'un des blocs, il faudra que les tous les blocs suivants recalcule leur hash pour valider le consensus et ainsi uniformiser l'ensemble de la blockchain.**
+<<<<<<< HEAD
 
 
 
@@ -147,4 +148,4 @@ Les 3 piliers suivants doivent être scrupuleusement respectés:
 
 ### Le modèle O.I.D (object id)
 
-C'est une référence standardisé qui permet grâce à son identifiant unique de retracer un objet rapidement dans un système d'information. Il est écrit physiquement sur le support. Cela permet de se soustraire de requetes sql avec jointures pour le trouver dans la base de donnée et consommer des performances.
+C'est une référence standardisé qui permet grâce à son identifiant unique de retracer un objet rapidement dans un système d'information. Il est écrit physiquement sur le support. Cela permet de se soustraire de requête SQL avec jointures pour le trouver dans la base de donnée et consommer des performances.
