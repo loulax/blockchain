@@ -94,7 +94,7 @@ L'implémentation peux différer selon la blockchain mais les principaux éléme
 
 Le 1er bloc d'une blockchain est appelé le <u>**Genesis block**</u>
 
-![Les différents éléments d'un bloc](C:\Users\loulax\Documents\Blockchain\img\block_datas.png)
+![Les différents éléments d'un bloc](..\img\block_datas.png)
 
 
 
